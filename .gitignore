@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build
+dist/
+build/
+.vite/
+.turbo/
+.parcel-cache/
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+backend/logs/
+
+# Misc
+.eslintcache
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
